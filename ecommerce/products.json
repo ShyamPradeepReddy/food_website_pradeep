@@ -1,0 +1,142 @@
+[
+    {
+        "model": "yourapp.product",
+        "pk": 1,
+        "fields": {
+            "title": "Buffalo Ghee",
+            "selling_price": 500.00,
+            "discounted_price": 450.00,
+            "description": "Clarified butter made from buffalo milk, ideal for traditional cooking.",
+            "composition": "Buffalo milk cream",
+            "prodapp": "Used in traditional dishes and remedies.",
+            "category": "GH",
+            "product_image": "path/to/buffalo_ghee.jpg"
+        }
+    },
+    {
+        "model": "yourapp.product",
+        "pk": 2,
+        "fields": {
+            "title": "Cow Ghee",
+            "selling_price": 400.00,
+            "discounted_price": 350.00,
+            "description": "Clarified butter made from cow’s milk, perfect for cooking and baking.",
+            "composition": "Cow milk cream",
+            "prodapp": "Ideal for culinary use.",
+            "category": "GH",
+            "product_image": "path/to/cow_ghee.jpg"
+        }
+    },
+    {
+        "model": "yourapp.product",
+        "pk": 3,
+        "fields": {
+            "title": "Kulfi",
+            "selling_price": 150.00,
+            "discounted_price": 120.00,
+            "description": "Traditional Indian ice cream made with rich flavors and creamy texture.",
+            "composition": "Milk, cream, sugar, and flavorings.",
+            "prodapp": "Popular as a dessert.",
+            "category": "IC",
+            "product_image": "path/to/kulfi.jpg"
+        }
+    },
+    {
+        "model": "yourapp.product",
+        "pk": 4,
+        "fields": {
+            "title": "Lassi",
+            "selling_price": 100.00,
+            "discounted_price": 90.00,
+            "description": "A refreshing yogurt-based drink, available in sweet and salted varieties.",
+            "composition": "Yogurt, water, and spices.",
+            "prodapp": "Perfect for cooling down in hot weather.",
+            "category": "LS",
+            "product_image": "path/to/lassi.jpg"
+        }
+    },
+    {
+        "model": "yourapp.product",
+        "pk": 5,
+        "fields": {
+            "title": "Full Cream Milk",
+            "selling_price": 60.00,
+            "discounted_price": 50.00,
+            "description": "Rich and creamy milk with full-fat content, ideal for daily consumption.",
+            "composition": "Whole milk",
+            "prodapp": "Used for drinking and cooking.",
+            "category": "ML",
+            "product_image": "path/to/full_cream_milk.jpg"
+        }
+    },
+    {
+        "model": "yourapp.product",
+        "pk": 6,
+        "fields": {
+            "title": "Milkshake Chocolate",
+            "selling_price": 200.00,
+            "discounted_price": 180.00,
+            "description": "Creamy chocolate milkshake, a delightful treat for chocolate lovers.",
+            "composition": "Milk, chocolate syrup, and cream.",
+            "prodapp": "Enjoy as a dessert or snack.",
+            "category": "MS",
+            "product_image": "path/to/milkshake_chocolate.jpg"
+        }
+    },
+    {
+        "model": "yourapp.product",
+        "pk": 7,
+        "fields": {
+            "title": "Curd",
+            "selling_price": 80.00,
+            "discounted_price": 70.00,
+            "description": "Fresh and tangy yogurt, a staple in many cuisines.",
+            "composition": "Milk and yogurt culture",
+            "prodapp": "Used as a side dish or in cooking.",
+            "category": "CR",
+            "product_image": "path/to/curd.jpg"
+        }
+    },
+    {
+        "model": "yourapp.product",
+        "pk": 8,
+        "fields": {
+            "title": "Ice Bars",
+            "selling_price": 50.00,
+            "discounted_price": 40.00,
+            "description": "Frozen treats available in various flavors, perfect for a hot day.",
+            "composition": "Fruit juices, water, and sugar.",
+            "prodapp": "Ideal for cooling off in summer.",
+            "category": "IC",
+            "product_image": "path/to/ice_bars.jpg"
+        }
+    },
+    {
+        "model": "yourapp.product",
+        "pk": 9,
+        "fields": {
+            "title": "Paneer",
+            "selling_price": 300.00,
+            "discounted_price": 280.00,
+            "description": "Indian cottage cheese used in a variety of dishes.",
+            "composition": "Milk curds and lemon juice",
+            "prodapp": "Commonly used in vegetarian dishes.",
+            "category": "PN",
+            "product_image": "path/to/paneer.jpg"
+        }
+    },
+    {
+        "model": "yourapp.product",
+        "pk": 10,
+        "fields": {
+            "title": "Sabja",
+            "selling_price": 120.00,
+            "discounted_price": 100.00,
+            "description": "Also known as basil seeds, used in various drinks and desserts.",
+            "composition": "Basil seeds",
+            "prodapp": "Used in health drinks and sweet dishes.",
+            "category": "IC",
+            "product_image": "path/to/sabja.jpg"
+        }
+    }
+]

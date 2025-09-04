@@ -1,0 +1,45 @@
+{% extends "app/base.html" %}
+{% load static %}
+
+{% block title %} Product Detail {% endblock title %}
+
+{% block main_content %}
+<div class="container py-5">
+    <div class="row justify-content-between align-items-center shadow-lg p-4 rounded bg-white">
+        
+        <!-- Product Image -->
+        <div class="col-lg-5 mb-4 mb-lg-0">
+            <div class="border rounded overflow-hidden shadow-sm">
+                <img src="{{ product.product_image.url }}" alt="{{ product.title }}" class="img-fluid w-100" style="object-fit: cover; height: 400px;">
+            </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="col-lg-6">
+            <h1 class="fw-bold mb-3" style="font-family: 'Georgia', serif;">{{ product.title }}</h1>
+
+            <div class="mb-2">
+                <span class="h4 text-danger fw-bold">₹{{ product.discounted_price }}</span>
+                <span class="text-muted text-decoration-line-through ms-2">₹{{ product.sellong_price }}</span>
+            </div>
+
+            <hr class="my-4">
+
+            <h5 class="text-dark fw-semibold mb-3">Product Features</h5>
+            <ul class="fs-5" style="font-family: 'Rajdhani', sans-serif;">
+                <li>{{ product.description }}</li>
+            </ul>
+
+            <div class="d-flex align-items-center mt-4">
+                <form action="{% url 'add_to_cart' %}" method="POST" class="me-3">
+                    {% csrf_token %}
+                    <input type="hidden" name="prod_id" value="{{ product.id }}">
+                    <button type="submit" class="btn btn-primary shadow-sm px-4 py-2">Add to Cart</button>
+                </form>
+
+                <a href="#" class="btn btn-warning shadow-sm px-4 py-2">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock main_content %}
