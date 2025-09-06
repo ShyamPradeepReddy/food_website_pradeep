@@ -5,7 +5,7 @@
 Built using **React** for the frontend, **Django** for the backend, and deployed on **AWS**, this platform enables a responsive user experience for customers while offering powerful admin capabilities and intelligent product recommendations using machine learning.
 
 ---
-
+![(Home Page)](ecommerce/media/product/IMG-20250422-WA0015(1).jpg)
 ## 🚀 Tech Stack
 
 | Layer       | Technology |
@@ -42,6 +42,7 @@ Built using **React** for the frontend, **Django** for the backend, and deployed
 - Meta tags, descriptions, and optimized URL structure for better Google search ranking.
 
 ---
+![(Home Page)](ecommerce/media/product/IMG-20250422-WA0016(2).jpg)
 
 ## 🏗️ Architecture Diagram
 
@@ -64,3 +65,4 @@ Built using **React** for the frontend, **Django** for the backend, and deployed
 - Optional GPU (for training ML models faster)
 
 -
+![(Home Page)](ecommerce/media/product/IMG-20250422-WA0017(2).jpg)
